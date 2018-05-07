@@ -1,6 +1,12 @@
 gocovmerge
 ==========
 
+This is a fork of https://github.com/wadey/gocovmerge. It converts it into a
+library and introduces idiomatic error handling. The original command's
+functionality is provided by github.com/shabbyrobe/gocovmerge/cmd/gocovmerge.
+
+--
+
 gocovmerge takes the results from multiple `go test -coverprofile` runs and
 merges them into one profile.
 
