@@ -31,6 +31,5 @@ func run() error {
 		}
 	}
 
-	gocovmerge.DumpProfiles(merged, os.Stdout)
-	return nil
+	return gocovmerge.DumpProfiles(merged, os.Stdout)
 }
